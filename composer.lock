@@ -64,16 +64,16 @@
         },
         {
             "name": "blockpc/select2-wire",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blockpc/select2-wire.git",
-                "reference": "fd703acb6a387c14aa6f20e42f1411597338cf41"
+                "reference": "82c79b58d8cc47402994924f349b0087f4211b93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blockpc/select2-wire/zipball/fd703acb6a387c14aa6f20e42f1411597338cf41",
-                "reference": "fd703acb6a387c14aa6f20e42f1411597338cf41",
+                "url": "https://api.github.com/repos/blockpc/select2-wire/zipball/82c79b58d8cc47402994924f349b0087f4211b93",
+                "reference": "82c79b58d8cc47402994924f349b0087f4211b93",
                 "shasum": ""
             },
             "require": {
@@ -112,9 +112,9 @@
             "description": "Free Select2 Livewire package",
             "support": {
                 "issues": "https://github.com/blockpc/select2-wire/issues",
-                "source": "https://github.com/blockpc/select2-wire/tree/v1.0.0"
+                "source": "https://github.com/blockpc/select2-wire/tree/v1.0.1"
             },
-            "time": "2022-01-18T15:21:16+00:00"
+            "time": "2022-01-18T18:32:49+00:00"
         },
         {
             "name": "brick/math",

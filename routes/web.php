@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\VehiclesController;
+use App\Http\Livewire\Blog\Articles;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +27,6 @@ require __DIR__.'/auth.php';
 
 // Vehicles Route
 Route::get('/vehicles', VehiclesController::class)->name('vehicles');
+
+// Blog Route
+Route::get('/articles', Articles::class)->name('articles');
