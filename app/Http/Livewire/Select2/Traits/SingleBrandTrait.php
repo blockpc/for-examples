@@ -7,9 +7,9 @@ namespace App\Http\Livewire\Select2\Traits;
  *
  * @package Blockpc\Select2Wire
  */
-trait SingleTrait
+trait SingleBrandTrait
 {
-    public function initializeSingleTrait()
+    public function initializeSingleBrandTrait()
     {
         $this->listeners = array_merge($this->listeners, [
             'set-brand' => 'set_brand'

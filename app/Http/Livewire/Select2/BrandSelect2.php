@@ -15,7 +15,6 @@ use App\Models\Brand;
 class BrandSelect2 extends Component
 {
     public Brand $brand;
-
     public $search;
 
     protected $listeners = [

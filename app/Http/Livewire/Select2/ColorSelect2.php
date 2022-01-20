@@ -14,8 +14,8 @@ use App\Models\Color;
  */
 class ColorSelect2 extends Component
 {
-    public $search;
     public $colors;
+    public $search;
 
     protected $listeners = [
         'set-colors' => 'set_colors',

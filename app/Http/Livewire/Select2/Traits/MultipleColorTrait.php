@@ -7,17 +7,17 @@ namespace App\Http\Livewire\Select2\Traits;
  *
  * @package Blockpc\Select2Wire
  */
-trait MultipleTrait
+trait MultipleColorTrait
 {
     public $colors = [];
 
-    public function initializeMultipleTrait()
-    {
-        $this->listeners = array_merge($this->listeners, [
-            'set-color' => 'set_color',
-            'remove-color' => 'remove_color'
-        ]);
-    }
+	public function initializeMultipleColorTrait()
+	{
+		$this->listeners = array_merge($this->listeners, [
+			'set-color' => 'set_color',
+			'remove-color' => 'remove_color'
+		]);
+	}
 
     public function set_color(int $id)
     {

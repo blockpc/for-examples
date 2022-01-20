@@ -2,15 +2,15 @@
 
 namespace App\Http\Livewire\Vehicles;
 
-use App\Http\Livewire\Select2\Traits\MultipleTrait;
-use App\Http\Livewire\Select2\Traits\SingleTrait;
+use App\Http\Livewire\Select2\Traits\MultipleColorTrait;
+use App\Http\Livewire\Select2\Traits\SingleBrandTrait;
 use App\Models\Vehicle;
 use Illuminate\Validation\Rule;
 use Livewire\Component;
 
 class FormVehicle extends Component
 {
-    use SingleTrait, MultipleTrait;
+    use SingleBrandTrait, MultipleColorTrait;
 
     protected $listeners = [
         'set-vehicle' => 'set_vehicle',
